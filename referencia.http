@@ -1,0 +1,43 @@
+###
+
+GET http://localhost:3000/usuarios
+
+###
+
+POST http://localhost:3000/usuarios
+Content-Type: application/json
+
+{
+    "titulo": "De Volta para o Futuro",
+    "genero": "Infantil/Ficção científica",
+    "ano_lancamento":"1985",
+    "diretor":"Robert Zemeckis"
+}
+
+###
+
+PUT http://localhost:3000/usuarios/1
+Content-Type: application/json
+
+{
+    "titulo": "De Volta para o Futuro",
+    "genero": "Infantil/Ficção científica",
+    "ano_lancamento":"1985",
+    "diretor":"Robert Zemeckis"
+}
+
+###
+
+DELETE http://localhost:3000/usuarios/2
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "titulo": "De Volta para o Futuro",
+    "genero": "Infantil/Ficção científica",
+    "ano_lancamento":"1985",
+    "diretor":"Robert Zemeckis"
+}
